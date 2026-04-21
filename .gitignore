@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -104,3 +105,13 @@ output/
 results/
 figures/
 reports/
+=======
+# Environment
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*_secret*
+credentials.json
+>>>>>>> 8a4a820 (🔒 Security: .gitignore补全.env/密钥防护规则)
