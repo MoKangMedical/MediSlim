@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MediSlim 智能减重管理</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,sans-serif;background:#0a0a1e;color:#e2e8f0;line-height:1.6}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem;background:linear-gradient(135deg,#f472b622,#0a0a1e)}
+.hero h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:800;background:linear-gradient(135deg,#f472b6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{color:rgba(255,255,255,0.7);margin:1rem 0 2rem;font-size:1.2rem}
+.btn{padding:14px 32px;border-radius:12px;font-size:1rem;font-weight:600;cursor:pointer;border:none;transition:all .3s}
+.btn-p{background:linear-gradient(135deg,#f472b6,#8b5cf6);color:#fff}
+.btn-p:hover{transform:translateY(-2px)}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;max-width:1200px;margin:0 auto;padding:4rem 2rem}
+.fc{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:2rem;transition:all .3s}
+.fc:hover{transform:translateY(-4px);border-color:#f472b6}
+.fc h3{font-size:1.1rem;margin-bottom:.5rem;color:#fff}
+.fc p{color:rgba(255,255,255,0.6);font-size:.9rem}
+.st{text-align:center;font-size:2rem;font-weight:700;padding-top:4rem}
+.ss{text-align:center;color:rgba(255,255,255,0.6);margin-bottom:2rem}
+.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;max-width:900px;margin:0 auto;padding:4rem 2rem}
+.pc{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:2.5rem;text-align:center;position:relative}
+.pc.popular{border-color:#f472b6;background:rgba(244,114,182,0.08)}
+.badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#f472b6,#8b5cf6);color:#fff;padding:4px 20px;border-radius:20px;font-size:.8rem;font-weight:600}
+.pc h3{font-size:1.3rem;margin-bottom:.5rem}
+.price{font-size:2.2rem;font-weight:800;color:#fff;margin:1rem 0}
+.pc ul{list-style:none;text-align:left;margin:1.5rem 0}
+.pc ul li{padding:.5rem 0;color:rgba(255,255,255,0.7);font-size:.9rem;border-bottom:1px solid rgba(255,255,255,0.05)}
+.pc ul li::before{content:"\2713 ";color:#10b981;font-weight:700}
+.pc .btn{width:100%}
+footer{background:rgba(0,0,0,0.3);border-top:1px solid rgba(255,255,255,0.08);padding:2rem;text-align:center}
+</style>
+</head>
+<body>
+<nav style="position:fixed;top:0;left:0;right:0;z-index:9999;background:rgba(10,10,30,0.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(99,102,241,0.2);padding:0 2rem;height:56px;display:flex;align-items:center;justify-content:space-between">
+  <a href="https://mokangmedical.github.io/opc-homepage/" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:700;font-size:15px">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="url(#ng)" stroke-width="2.5"/><path d="M10 16h12M16 10v12" stroke="url(#ng)" stroke-width="2.5" stroke-linecap="round"/><defs><linearGradient id="ng" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient></defs></svg>
+    <span style="background:linear-gradient(135deg,#818cf8,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent">MoKangMedical</span>
+  </a>
+  <div style="display:flex;gap:6px;align-items:center">
+    <a href="https://mokangmedical.github.io/opc-homepage/" style="color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px;padding:6px 12px;border-radius:8px">生态首页</a>
+    <a href="https://github.com/MoKangMedical" target="_blank" style="color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px;padding:6px 12px;border-radius:8px">GitHub</a>
+    <a href="https://mokangmedical.github.io/opc-alliance/" style="background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;padding:6px 16px;border-radius:8px;font-weight:600;font-size:13px;text-decoration:none">OPC Hub</a>
+  </div>
+</nav>
+<div style="padding-top:56px"></div>
+
+<section class="hero">
+<div>
+  <h1>MediSlim 智能减重</h1>
+  <p>AI驱动的个性化体重管理平台，GLP-1类药物辅助决策</p>
+  <div style="display:flex;gap:4rem;justify-content:center;margin:2rem 0">
+    <div><div style="font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#f472b6,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent">5K+</div><div style="color:rgba(255,255,255,0.5);font-size:.85rem">活跃用户</div></div>
+    <div><div style="font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#f472b6,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent">92%</div><div style="color:rgba(255,255,255,0.5);font-size:.85rem">满意度</div></div>
+    <div><div style="font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#f472b6,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent">-8kg</div><div style="color:rgba(255,255,255,0.5);font-size:.85rem">平均3月减重</div></div>
+  </div>
+  <button class="btn btn-p" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">开始减重之旅</button>
+</div>
+</section>
+
+<h2 class="st" id="features">核心功能</h2>
+<p class="ss">六大智能模块，科学减重</p>
+<div class="features">
+  <div class="fc"><h3>个性化饮食方案</h3><p>AI根据体质、目标、偏好生成每日饮食计划</p></div>
+  <div class="fc"><h3>运动处方生成</h3><p>智能运动方案，循序渐进，安全有效</p></div>
+  <div class="fc"><h3>GLP-1药物决策</h3><p>司美格鲁肽/替尔泊肽等药物辅助决策支持</p></div>
+  <div class="fc"><h3>体重趋势预测</h3><p>基于机器学习的减重轨迹预测与调整建议</p></div>
+  <div class="fc"><h3>营养师AI助手</h3><p>24/7营养咨询，实时饮食指导</p></div>
+  <div class="fc"><h3>社区激励系统</h3><p>减重打卡、排行榜、成就系统</p></div>
+</div>
+
+<h2 class="st">定价方案</h2>
+<p class="ss">科学减重，值得投资</p>
+<div class="pricing">
+  <div class="pc"><h3>基础版</h3><div class="price">免费</div><ul><li>基础体重记录</li><li>简单饮食建议</li><li>社区访问</li></ul><button class="btn btn-p">开始使用</button></div>
+  <div class="pc popular"><div class="badge">推荐</div><h3>专业版</h3><div class="price">¥99/月</div><ul><li>AI饮食方案</li><li>运动处方</li><li>GLP-1决策支持</li><li>营养师AI</li><li>趋势预测</li></ul><button class="btn btn-p">立即订阅</button></div>
+  <div class="pc"><h3>VIP版</h3><div class="price">¥299/月</div><ul><li>全部功能</li><li>1对1营养师</li><li>定制方案</li><li>优先客服</li></ul><button class="btn btn-p">联系客服</button></div>
+</div>
+
+<footer>
+  <div style="display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;margin-bottom:1rem">
+    <a href="https://mokangmedical.github.io/tianyan/" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:.85rem">天眼</a>
+    <a href="https://mokangmedical.github.io/PharmaSim/" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:.85rem">PharmaSim</a>
+    <a href="https://mokangmedical.github.io/opc-homepage/" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:.85rem">OPC生态</a>
+  </div>
+  <p style="color:rgba(255,255,255,0.3);font-size:.8rem">&copy; 2026 MoKangMedical</p>
+</footer>
+</body>
+</html>
