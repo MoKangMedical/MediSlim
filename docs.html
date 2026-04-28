@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation - MediSlim</title>
+  <meta name="description" content="Developer documentation for MediSlim. Quick start guides, API reference, and deployment instructions.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- OPC Floating Navigation -->
+  <nav class="opc-nav">
+    <div class="opc-nav-inner">
+      <a class="brand" href="https://mokangmedical.github.io/opc-homepage/">
+        <span class="brand-icon">💊</span> MediSlim
+        <span class="brand-badge">OPC</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="opc-nav-links">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/MoKangMedical/MediSlim" class="nav-github">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="badge">Docs</div>
+    <h1>Documentation</h1>
+    <p>Get started with MediSlim — complete developer guide</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card fade-up" style="max-width:800px;margin:0 auto">
+        <h3>Quick Start</h3>
+        <pre style="background:var(--bg);padding:1.25rem;border-radius:8px;color:var(--text-muted);overflow-x:auto;border:1px solid var(--border);margin-top:1rem;line-height:1.8">
+# Clone the repository
+git clone https://github.com/MoKangMedical/MediSlim.git
+cd MediSlim
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the server
+python main.py</pre>
+      </div>
+
+      <div class="card-grid" style="margin-top:2rem;max-width:800px">
+        <div class="card fade-up"><h3>Installation Guide</h3><p>Detailed environment setup and installation steps, with Docker one-click deployment support.</p></div>
+        <div class="card fade-up"><h3>API Reference</h3><p>Complete RESTful API documentation with request examples and response schemas.</p></div>
+        <div class="card fade-up"><h3>Configuration</h3><p>Detailed explanation of all configuration options and best practice recommendations.</p></div>
+        <div class="card fade-up"><h3>Deployment Guide</h3><p>Production deployment options including Docker, Kubernetes, and traditional hosting.</p></div>
+        <div class="card fade-up"><h3>FAQ</h3><p>Frequently asked questions and troubleshooting tips for common issues.</p></div>
+        <div class="card fade-up"><h3>Changelog</h3><p>Version history, new feature announcements, and breaking changes documentation.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="https://github.com/MoKangMedical/MediSlim">GitHub</a>
+      </div>
+      <p>&copy; 2026 MediSlim. Part of <a href="https://mokangmedical.github.io/opc-homepage/">OPC Ecosystem</a>.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "MS MediSlim 成片 Demo 纯前端动画 · 中文旁白 · 中文字幕" [ref=e3] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e4]: MS
+      - generic [ref=e5]:
+        - strong [ref=e6]: MediSlim 成片 Demo
+        - generic [ref=e7]: 纯前端动画 · 中文旁白 · 中文字幕
+    - navigation [ref=e8]:
+      - link "返回首页" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - link "开始评估" [ref=e10] [cursor=pointer]:
+        - /url: /assess
+      - link "业务流" [ref=e11] [cursor=pointer]:
+        - /url: /flow
+      - link "打开 MP4" [ref=e12] [cursor=pointer]:
+        - /url: /static/media/demo/medislim-demo-voiceover.mp4
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic "MediSlim 前端动画成片" [ref=e16]
+      - generic [ref=e17]:
+        - button "播放成片" [ref=e18] [cursor=pointer]
+        - button "开启中文旁白" [ref=e19] [cursor=pointer]
+        - button "重新播放" [ref=e20] [cursor=pointer]
+        - link "下载 WebM" [ref=e21] [cursor=pointer]:
+          - /url: /static/media/demo/medislim-demo-voiceover.webm
+    - complementary [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Pure Frontend Film
+        - heading "半真实叙事和数据可视化，被做成一支前端成片。" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 这一版不再是静态分镜拼接。场景、转场、字幕、图表和音画节奏都在浏览器里实时生成，再导出成 MP4 / WebM。
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - strong [ref=e29]: 00:00
+          - generic [ref=e30]: 当前时间
+        - generic [ref=e31]:
+          - strong [ref=e32]: "01"
+          - generic [ref=e33]: 当前镜头
+        - generic [ref=e34]:
+          - strong [ref=e35]: "6"
+          - generic [ref=e36]: 剧情段落
+      - generic [ref=e37]:
+        - generic [ref=e38]: 当前字幕
+        - paragraph [ref=e39]: 正在加载成片脚本…
+      - generic [ref=e41]:
+        - generic [ref=e42]: 镜头脚本
+        - paragraph [ref=e43]: 从状态失衡，到 AI 评估、方案进入、履约协作，再回到稳定节奏。

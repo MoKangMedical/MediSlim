@@ -1,0 +1,418 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: MS
+        - generic [ref=e6]:
+          - strong [ref=e7]: MediSlim 轻健康
+          - text: AI 体质评估 + 消费医疗转化层
+      - navigation [ref=e8]:
+        - link "产品矩阵" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "开始评估" [ref=e10] [cursor=pointer]:
+          - /url: /assess
+        - link "体质辨识" [ref=e11] [cursor=pointer]:
+          - /url: /constitution
+        - link "成片 Demo" [ref=e12] [cursor=pointer]:
+          - /url: /demo-film
+        - link "业务流" [ref=e13] [cursor=pointer]:
+          - /url: /flow
+        - link "运营导航" [ref=e14] [cursor=pointer]:
+          - /url: /admin
+  - main [ref=e15]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: 消费医疗前台 · 轻运营模型
+        - generic [ref=e21]:
+          - generic [ref=e22]: AI 体质评估
+          - generic [ref=e23]: 合作医院履约
+          - generic [ref=e24]: 订阅复购跟踪
+        - heading "一个更轻、更清楚的健康服务入口。" [level=1] [ref=e25]
+        - paragraph [ref=e26]: 用一套 AI 前台承接评估、咨询转化和复购提醒，诊疗审核与履约交给合作医院、药房和物流系统。
+        - generic [ref=e27]:
+          - link "立即做 AI 评估" [ref=e28] [cursor=pointer]:
+            - /url: /assess
+          - link "先做体质辨识" [ref=e29] [cursor=pointer]:
+            - /url: /constitution
+        - generic [ref=e30]:
+          - link "查看完整业务闭环" [ref=e31] [cursor=pointer]:
+            - /url: /flow
+          - generic [ref=e32]: 5 个核心品类 · 九种体质辨识
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: 首页成片 Demo
+          - link "打开完整成片页" [ref=e36] [cursor=pointer]:
+            - /url: /demo-film
+        - generic [ref=e37]:
+          - generic:
+            - generic: 首页即时播放
+            - strong: 先让用户被理解，再自然进入产品。
+            - generic: 从状态失衡，到 AI 评估、医院履约，再到重新回到自己的节奏。
+            - button "暂停预览" [ref=e39] [cursor=pointer]
+        - generic [ref=e40]:
+          - link "观看配音版" [ref=e41] [cursor=pointer]:
+            - /url: /static/media/demo/medislim-demo-voiceover.mp4
+          - link "进入真实评估" [ref=e42] [cursor=pointer]:
+            - /url: /assess
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - strong [ref=e45]: "0"
+            - generic [ref=e46]: 累计用户
+            - generic [ref=e47]: 体验转化池
+          - generic [ref=e48]:
+            - strong [ref=e49]: "0"
+            - generic [ref=e50]: 累计订单
+            - generic [ref=e51]: 试运行数据
+          - generic [ref=e52]:
+            - strong [ref=e53]: "0"
+            - generic [ref=e54]: 累计线索
+            - generic [ref=e55]: 待转化用户池
+          - generic [ref=e56]:
+            - strong [ref=e57]: "0"
+            - generic [ref=e58]: 订阅用户
+            - generic [ref=e59]: 复购与提醒
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: 产品矩阵
+          - heading "按你的目标，直接进入对应方案。" [level=2] [ref=e65]
+          - paragraph [ref=e66]: 每个入口都先做评估，再连接对应的医院、药房和后续复购链路。
+        - link "选择产品开始体验" [ref=e67] [cursor=pointer]:
+          - /url: /assess
+      - generic [ref=e68]:
+        - article [ref=e69]:
+          - generic [ref=e70]:
+            - img "GLP-1 科学减重产品展示图" [ref=e71]
+            - generic [ref=e72]:
+              - generic [ref=e73]: 🔥 减肥
+              - generic [ref=e74]: ¥399 起
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: 处方协作方案
+              - heading "GLP-1 科学减重" [level=3] [ref=e78]
+              - paragraph [ref=e79]: 司美格鲁肽/替尔泊肽，医生指导，科学减重
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - strong [ref=e82]: ¥399
+                - generic [ref=e83]: 首月体验
+              - generic [ref=e84]: 续费 ¥599/月
+            - generic [ref=e85]:
+              - generic [ref=e86]: 医师评估
+              - generic [ref=e87]: 个性化方案
+            - link "开始评估" [ref=e89] [cursor=pointer]:
+              - /url: /assess?product=glp1
+            - link "查看这条方案的履约链路" [ref=e90] [cursor=pointer]:
+              - /url: /flow#glp1
+        - article [ref=e91]:
+          - generic [ref=e92]:
+            - img "防脱生发产品展示图" [ref=e93]
+            - generic [ref=e94]:
+              - generic [ref=e95]: 💇 脱发
+              - generic [ref=e96]: ¥199 起
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: 处方协作方案
+              - heading "防脱生发" [level=3] [ref=e100]
+              - paragraph [ref=e101]: 米诺地尔/非那雄胺，专业防脱方案
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - strong [ref=e104]: ¥199
+                - generic [ref=e105]: 首月体验
+              - generic [ref=e106]: 续费 ¥299/月
+            - generic [ref=e107]:
+              - generic [ref=e108]: 毛囊检测评估
+              - generic [ref=e109]: 药物方案
+            - link "开始评估" [ref=e111] [cursor=pointer]:
+              - /url: /assess?product=hair
+            - link "查看这条方案的履约链路" [ref=e112] [cursor=pointer]:
+              - /url: /flow#hair
+        - article [ref=e113]:
+          - generic [ref=e114]:
+            - img "皮肤管理产品展示图" [ref=e115]
+            - generic [ref=e116]:
+              - generic [ref=e117]: 🧴 皮肤
+              - generic [ref=e118]: ¥299 起
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: 轻干预调理方案
+              - heading "皮肤管理" [level=3] [ref=e122]
+              - paragraph [ref=e123]: 祛痘/美白/抗衰，皮肤科医生在线诊疗
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - strong [ref=e126]: ¥299
+                - generic [ref=e127]: 首月体验
+              - generic [ref=e128]: 续费 ¥399/月
+            - generic [ref=e129]:
+              - generic [ref=e130]: 皮肤评估
+              - generic [ref=e131]: 个性化方案
+            - link "开始评估" [ref=e133] [cursor=pointer]:
+              - /url: /assess?product=skin
+            - link "查看这条方案的履约链路" [ref=e134] [cursor=pointer]:
+              - /url: /flow#skin
+        - article [ref=e135]:
+          - generic [ref=e136]:
+            - img "男性健康产品展示图" [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e139]: 💪 男性
+              - generic [ref=e140]: ¥399 起
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: 处方协作方案
+              - heading "男性健康" [level=3] [ref=e144]
+              - paragraph [ref=e145]: 精力管理/睾酮/前列腺，专业男性健康
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - strong [ref=e148]: ¥399
+                - generic [ref=e149]: 首月体验
+              - generic [ref=e150]: 续费 ¥599/月
+            - generic [ref=e151]:
+              - generic [ref=e152]: 健康评估
+              - generic [ref=e153]: 检验建议
+            - link "开始评估" [ref=e155] [cursor=pointer]:
+              - /url: /assess?product=mens
+            - link "查看这条方案的履约链路" [ref=e156] [cursor=pointer]:
+              - /url: /flow#mens
+        - article [ref=e157]:
+          - generic [ref=e158]:
+            - img "助眠调理产品展示图" [ref=e159]
+            - generic [ref=e160]:
+              - generic [ref=e161]: 😴 睡眠
+              - generic [ref=e162]: ¥199 起
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]: 轻干预调理方案
+              - heading "助眠调理" [level=3] [ref=e166]
+              - paragraph [ref=e167]: 失眠/焦虑/褪黑素，科学改善睡眠
+            - generic [ref=e168]:
+              - generic [ref=e169]:
+                - strong [ref=e170]: ¥199
+                - generic [ref=e171]: 首月体验
+              - generic [ref=e172]: 续费 ¥299/月
+            - generic [ref=e173]:
+              - generic [ref=e174]: 睡眠评估
+              - generic [ref=e175]: 行为指导
+            - link "开始评估" [ref=e177] [cursor=pointer]:
+              - /url: /assess?product=sleep
+            - link "查看这条方案的履约链路" [ref=e178] [cursor=pointer]:
+              - /url: /flow#sleep
+    - generic [ref=e180]:
+      - article [ref=e181]:
+        - heading "九种体质" [level=3] [ref=e182]
+        - paragraph [ref=e183]: 把中医体质辨识做成独立入口，先判断偏向，再决定适合先做减重、助眠、皮肤还是男性健康方案。
+        - link "打开体质辨识" [ref=e185] [cursor=pointer]:
+          - /url: /constitution
+      - article [ref=e186]:
+        - heading "极轻架构" [level=3] [ref=e187]
+        - paragraph [ref=e188]: 前台只负责获客、评估、转化和复购信号收集。复杂的合规诊疗和配送，不放在自建系统里硬扛。
+      - article [ref=e189]:
+        - heading "高频复购" [level=3] [ref=e190]
+        - paragraph [ref=e191]: 每个品类都围绕“首单体验 + 续费跟踪 + 个性化建议”设计，天然适合用内容和 CRM 做长周期运营。
+      - article [ref=e192]:
+        - heading "快速试投放" [level=3] [ref=e193]
+        - paragraph [ref=e194]: 首页、评估页和后台入口都在一个零依赖 Python 服务里，适合快速起盘、跑渠道素材和验证漏斗。
+    - generic [ref=e197]:
+      - generic [ref=e199]:
+        - generic [ref=e200]: 线索采集
+        - heading "先留资，再进入咨询或评估。" [level=2] [ref=e201]
+        - paragraph [ref=e202]: 适合从内容页、社群或私域入口先收集高意向用户，再由运营或顾问继续推进。
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - generic [ref=e205]: 姓名
+          - textbox "姓名" [ref=e206]:
+            - /placeholder: 例如：李女士
+        - generic [ref=e207]:
+          - generic [ref=e208]: 手机号
+          - textbox "手机号" [ref=e209]:
+            - /placeholder: 用于创建线索
+        - generic [ref=e210]:
+          - generic [ref=e211]: 关注品类
+          - combobox "关注品类" [ref=e212]:
+            - option "暂未确定" [selected]
+            - option "🔥 GLP-1 科学减重"
+            - option "💇 防脱生发"
+            - option "🧴 皮肤管理"
+            - option "💪 男性健康"
+            - option "😴 助眠调理"
+        - generic [ref=e213]:
+          - generic [ref=e214]: 来源渠道
+          - combobox "来源渠道" [ref=e215]:
+            - option "官网首页" [selected]
+            - option "小红书"
+            - option "微信私域"
+            - option "抖音"
+        - generic [ref=e216]:
+          - generic [ref=e217]: 补充信息
+          - textbox "补充信息" [ref=e218]:
+            - /placeholder: 例如：想先了解价格、已有处方、希望顾问联系时间段
+      - generic [ref=e219]:
+        - button "提交线索" [ref=e220] [cursor=pointer]
+        - link "直接开始评估" [ref=e221] [cursor=pointer]:
+          - /url: /assess
+    - generic [ref=e223]:
+      - generic [ref=e225]:
+        - generic [ref=e226]: 合作承接
+        - heading "前台轻，后端重。" [level=2] [ref=e227]
+        - paragraph [ref=e228]: 把合作医院、药房和产品方都摆到前台，清楚说明谁负责问诊、谁负责履约、谁负责产品供应。
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - generic [ref=e232]: 合作医院
+            - paragraph [ref=e233]: 负责处方、审核和互联网问诊。
+          - generic [ref=e234]:
+            - article [ref=e235]:
+              - generic [ref=e236]:
+                - generic:
+                  - img "京东健康互联网医院标识"
+                - generic [ref=e237]: 合作医院
+              - generic [ref=e238]:
+                - heading "京东健康互联网医院" [level=3] [ref=e239]
+                - paragraph [ref=e240]: 互联网医院
+              - generic [ref=e241]:
+                - generic [ref=e242]: 全科
+                - generic [ref=e243]: 皮肤科
+                - generic [ref=e244]: 男科
+            - article [ref=e245]:
+              - generic [ref=e246]:
+                - generic:
+                  - img "微医互联网医院标识"
+                - generic [ref=e247]: 合作医院
+              - generic [ref=e248]:
+                - heading "微医互联网医院" [level=3] [ref=e249]
+                - paragraph [ref=e250]: 互联网医院
+              - generic [ref=e251]:
+                - generic [ref=e252]: 全科
+                - generic [ref=e253]: 内分泌
+                - generic [ref=e254]: 皮肤科
+            - article [ref=e255]:
+              - generic [ref=e256]:
+                - generic:
+                  - img "好大夫在线标识"
+                - generic [ref=e257]: 合作医院
+              - generic [ref=e258]:
+                - heading "好大夫在线" [level=3] [ref=e259]
+                - paragraph [ref=e260]: 互联网医院
+              - generic [ref=e261]:
+                - generic [ref=e262]: 全科
+                - generic [ref=e263]: 脱发
+                - generic [ref=e264]: 减重
+            - article [ref=e265]:
+              - generic [ref=e266]:
+                - generic:
+                  - img "丁香园互联网医院标识"
+                - generic [ref=e267]: 合作医院
+              - generic [ref=e268]:
+                - heading "丁香园互联网医院" [level=3] [ref=e269]
+                - paragraph [ref=e270]: 互联网医院
+              - generic [ref=e271]:
+                - generic [ref=e272]: 全科
+                - generic [ref=e273]: 睡眠
+                - generic [ref=e274]: 皮肤科
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - generic [ref=e277]: 合作药房
+            - paragraph [ref=e278]: 负责药品配发、质检和末端配送。
+          - generic [ref=e279]:
+            - article [ref=e280]:
+              - generic [ref=e281]:
+                - generic:
+                  - img "大参林大药房标识"
+                - generic [ref=e282]: 合作药房
+              - generic [ref=e283]:
+                - heading "大参林大药房" [level=3] [ref=e284]
+                - paragraph [ref=e285]: 连锁药房
+              - generic [ref=e287]: 顺丰/京东
+            - article [ref=e288]:
+              - generic [ref=e289]:
+                - generic:
+                  - img "益丰大药房标识"
+                - generic [ref=e290]: 合作药房
+              - generic [ref=e291]:
+                - heading "益丰大药房" [level=3] [ref=e292]
+                - paragraph [ref=e293]: 连锁药房
+              - generic [ref=e295]: 顺丰
+        - generic [ref=e296]:
+          - generic [ref=e297]:
+            - generic [ref=e298]: 合作产品方
+            - paragraph [ref=e299]: 展示处方药、药食同源和保健品侧的产品方与供应链伙伴。
+          - generic [ref=e300]:
+            - article [ref=e301]:
+              - generic [ref=e302]:
+                - generic:
+                  - img "华东医药标识"
+                - generic [ref=e303]: 产品方
+              - generic [ref=e304]:
+                - heading "华东医药" [level=3] [ref=e305]
+                - paragraph [ref=e306]: GLP-1 药品方
+              - generic [ref=e307]:
+                - generic [ref=e308]: GLP-1减重
+                - generic [ref=e309]: 处方减重
+            - article [ref=e310]:
+              - generic [ref=e311]:
+                - generic:
+                  - img "仁会生物标识"
+                - generic [ref=e312]: 产品方
+              - generic [ref=e313]:
+                - heading "仁会生物" [level=3] [ref=e314]
+                - paragraph [ref=e315]: GLP-1 药品方
+              - generic [ref=e316]:
+                - generic [ref=e317]: GLP-1减重
+                - generic [ref=e318]: 代谢管理
+            - article [ref=e319]:
+              - generic [ref=e320]:
+                - generic:
+                  - img "信达生物标识"
+                - generic [ref=e321]: 产品方
+              - generic [ref=e322]:
+                - heading "信达生物" [level=3] [ref=e323]
+                - paragraph [ref=e324]: GLP-1 药品方
+              - generic [ref=e325]:
+                - generic [ref=e326]: GLP-1减重
+                - generic [ref=e327]: 代谢管理
+            - article [ref=e328]:
+              - generic [ref=e329]:
+                - generic:
+                  - img "三生制药标识"
+                - generic [ref=e330]: 产品方
+              - generic [ref=e331]:
+                - heading "三生制药" [level=3] [ref=e332]
+                - paragraph [ref=e333]: 脱发药品方
+              - generic [ref=e334]:
+                - generic [ref=e335]: 防脱生发
+                - generic [ref=e336]: 男性健康
+            - article [ref=e337]:
+              - generic [ref=e338]:
+                - generic:
+                  - img "振东制药标识"
+                - generic [ref=e339]: 产品方
+              - generic [ref=e340]:
+                - heading "振东制药" [level=3] [ref=e341]
+                - paragraph [ref=e342]: 脱发药品方
+              - generic [ref=e343]:
+                - generic [ref=e344]: 防脱生发
+                - generic [ref=e345]: 处方药供应
+            - article [ref=e346]:
+              - generic [ref=e347]:
+                - generic:
+                  - img "SC 食品工厂标识"
+                - generic [ref=e348]: 产品方
+              - generic [ref=e349]:
+                - heading "SC 食品工厂" [level=3] [ref=e350]
+                - paragraph [ref=e351]: 药食同源工厂
+              - generic [ref=e352]:
+                - generic [ref=e353]: 祛湿轻体
+                - generic [ref=e354]: 气血调养
+                - generic [ref=e355]: 助眠调理
+            - article [ref=e356]:
+              - generic [ref=e357]:
+                - generic:
+                  - img "保健食品企业标识"
+                - generic [ref=e358]: 产品方
+              - generic [ref=e359]:
+                - heading "保健食品企业" [level=3] [ref=e360]
+                - paragraph [ref=e361]: 蓝帽子供应方
+              - generic [ref=e362]:
+                - generic [ref=e363]: 益生菌
+                - generic [ref=e364]: 胶原蛋白
+                - generic [ref=e365]: 营养补充
+  - contentinfo [ref=e366]:
+    - generic [ref=e367]: MediSlim 轻健康 · 零依赖原型前台 · 当前服务端口默认为 8090。
